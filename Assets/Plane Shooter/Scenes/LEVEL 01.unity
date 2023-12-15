@@ -823,7 +823,7 @@ MonoBehaviour:
   - {fileID: 7715116293371485280, guid: 70abe60a18bf0c443af77456ec13e7db, type: 3}
   - {fileID: 5505504972976190428, guid: 2cb98c16b18ccc54695aec4d08e7b578, type: 3}
   - {fileID: 6545364402353931344, guid: 3f0f3e40b2ae08041b135e0794dccf2e, type: 3}
-  spawnTime: 2
+  spawnTime: 1
 --- !u!4 &581951273
 Transform:
   m_ObjectHideFlags: 0
@@ -2855,7 +2855,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8579533169709540135, guid: d71567cd49c3fb8438176b799964dc0c, type: 3}
       propertyPath: bulletSpawnTime
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8579533169709540184, guid: d71567cd49c3fb8438176b799964dc0c, type: 3}
       propertyPath: m_RootOrder
