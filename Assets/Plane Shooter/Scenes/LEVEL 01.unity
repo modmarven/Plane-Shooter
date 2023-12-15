@@ -294,7 +294,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 195.1, y: -35.5}
+  m_AnchoredPosition: {x: 228.70001, y: -51.30005}
   m_SizeDelta: {x: 300, y: 33}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &205209137
@@ -496,7 +496,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.8525, y: 0.9478343}
   m_AnchorMax: {x: 0.9775, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -9}
   m_SizeDelta: {x: 0, y: 0.000030517578}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &460041631
@@ -1102,7 +1102,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 47.400024, y: -39.80005}
+  m_AnchoredPosition: {x: 47.400024, y: -55.599854}
   m_SizeDelta: {x: 75, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &725003178
@@ -1315,7 +1315,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.6074999, y: 0.9592514}
   m_AnchorMax: {x: 0.8575001, y: 0.99466854}
-  m_AnchoredPosition: {x: -52, y: 0.60009766}
+  m_AnchoredPosition: {x: -52, y: -15.199951}
   m_SizeDelta: {x: -1.1000061, y: -1.2000427}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &841914330
@@ -1788,9 +1788,9 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.7
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -2761,6 +2761,87 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &6531280785411505139
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6531280785159792729, guid: f08bd1be1f84f6748aa4c95c0a029da6, type: 3}
+      propertyPath: coinCount
+      value: 
+      objectReference: {fileID: 841914332}
+    - target: {fileID: 6531280785159792729, guid: f08bd1be1f84f6748aa4c95c0a029da6, type: 3}
+      propertyPath: explosion
+      value: 
+      objectReference: {fileID: 7181456298090446481, guid: e60b1a51f3b92f446be98502d6904d2f, type: 3}
+    - target: {fileID: 6531280785159792729, guid: f08bd1be1f84f6748aa4c95c0a029da6, type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 205209137}
+    - target: {fileID: 6531280785159792729, guid: f08bd1be1f84f6748aa4c95c0a029da6, type: 3}
+      propertyPath: damageEffect
+      value: 
+      objectReference: {fileID: 7173693191689724321, guid: 61c78e88d8517d943a199f7355672fb6, type: 3}
+    - target: {fileID: 6531280785159792730, guid: f08bd1be1f84f6748aa4c95c0a029da6, type: 3}
+      propertyPath: muzzleFlash
+      value: 
+      objectReference: {fileID: 7412768695254529495, guid: 3216449513c0b3f468b09e624e6baadb, type: 3}
+    - target: {fileID: 6531280785159792730, guid: f08bd1be1f84f6748aa4c95c0a029da6, type: 3}
+      propertyPath: bulletPrefabs
+      value: 
+      objectReference: {fileID: 3117287844442692475, guid: c728a29d5a4978b49b8353f29a1252b4, type: 3}
+    - target: {fileID: 6531280785159792731, guid: f08bd1be1f84f6748aa4c95c0a029da6, type: 3}
+      propertyPath: m_Name
+      value: Gray Plane
+      objectReference: {fileID: 0}
+    - target: {fileID: 6531280785159792732, guid: f08bd1be1f84f6748aa4c95c0a029da6, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6531280785159792732, guid: f08bd1be1f84f6748aa4c95c0a029da6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6531280785159792732, guid: f08bd1be1f84f6748aa4c95c0a029da6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 6531280785159792732, guid: f08bd1be1f84f6748aa4c95c0a029da6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6531280785159792732, guid: f08bd1be1f84f6748aa4c95c0a029da6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6531280785159792732, guid: f08bd1be1f84f6748aa4c95c0a029da6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6531280785159792732, guid: f08bd1be1f84f6748aa4c95c0a029da6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6531280785159792732, guid: f08bd1be1f84f6748aa4c95c0a029da6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6531280785159792732, guid: f08bd1be1f84f6748aa4c95c0a029da6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6531280785159792732, guid: f08bd1be1f84f6748aa4c95c0a029da6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6531280785159792732, guid: f08bd1be1f84f6748aa4c95c0a029da6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f08bd1be1f84f6748aa4c95c0a029da6, type: 3}
 --- !u!1001 &8579533170686210405
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2770,7 +2851,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8579533169709540135, guid: d71567cd49c3fb8438176b799964dc0c, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8579533169709540135, guid: d71567cd49c3fb8438176b799964dc0c, type: 3}
       propertyPath: bulletSpawnTime
