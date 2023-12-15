@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class FanRotate : MonoBehaviour
 {
+    private float fanSpeed = 10.0f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +15,6 @@ public class FanRotate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        transform.Rotate(Vector3.right * fanSpeed);
     }
 }
