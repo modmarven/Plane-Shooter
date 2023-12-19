@@ -7,8 +7,8 @@ public class ShootManager : MonoBehaviour
     [SerializeField]
     private GameObject bulletPrefabs;
 
-    public Transform spawnPointLeft;
-    public Transform spawnPointRight;
+    public Transform[] spawnPoint;
+  
 
     public GameObject muzzleFlash;
 
@@ -28,8 +28,10 @@ public class ShootManager : MonoBehaviour
 
     void WeaponFire()
     {
-            Instantiate(bulletPrefabs, spawnPointLeft.position, Quaternion.identity);
-            Instantiate(bulletPrefabs, spawnPointRight.position, Quaternion.identity);
+        for (int i = 0; i < spawnPoint.Length; i++)
+        {
+            Instantiate(bulletPrefabs, spawnPoint[i].position, Quaternion.identity);
+        }
     }
 
     IEnumerator Shooting()
