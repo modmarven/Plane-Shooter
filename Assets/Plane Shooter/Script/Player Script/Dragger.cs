@@ -10,6 +10,7 @@ public class Dragger : MonoBehaviour
     private PlayerDragnDrop dragController;
     public PlayerHealthBar healthBar;
     public CoinCount coinCount;
+    public UiController uiController;
 
 
     private float minX = -4.0f, maxX = 4;
@@ -55,6 +56,7 @@ public class Dragger : MonoBehaviour
             Destroy(damageVFX, 0.2f);
             if (health <= 0)
             {
+                uiController.GameOver();
                 Destroy(gameObject);
                 GameObject explosionVFX = Instantiate(explosion, transform.position, Quaternion.identity);
                 Destroy(explosionVFX, 0.4f);

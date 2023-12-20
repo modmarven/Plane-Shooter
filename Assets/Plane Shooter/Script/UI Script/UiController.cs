@@ -10,11 +10,14 @@ public class UiController : MonoBehaviour
     private GameObject pauseGame;
     [SerializeField]
     private GameObject pauseButton;
+    [SerializeField]
+    private GameObject gameOverMenu;
 
     void Start()
     {
         pauseGame.SetActive(false);
         pauseButton.SetActive(true);
+        gameOverMenu.SetActive(false);
     }
 
     void Update()
@@ -34,6 +37,13 @@ public class UiController : MonoBehaviour
         pauseGame.SetActive(false);
         pauseButton.SetActive(true);
         Time.timeScale = 1.0f;
+    }
+
+    public void GameOver()
+    {
+        gameOverMenu.SetActive(true);
+        pauseButton.SetActive(false);
+        
     }
 
     public void QuitGame()

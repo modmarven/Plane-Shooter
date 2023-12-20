@@ -423,6 +423,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseGame: {fileID: 351744219}
   pauseButton: {fileID: 460041629}
+  gameOverMenu: {fileID: 2026614531}
 --- !u!4 &75725397
 Transform:
   m_ObjectHideFlags: 0
@@ -4128,6 +4129,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8579533169709540187, guid: d71567cd49c3fb8438176b799964dc0c, type: 3}
+      propertyPath: health
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8579533169709540187, guid: d71567cd49c3fb8438176b799964dc0c, type: 3}
       propertyPath: coinCount
       value: 
       objectReference: {fileID: 841914332}
@@ -4135,6 +4140,10 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 205209137}
+    - target: {fileID: 8579533169709540187, guid: d71567cd49c3fb8438176b799964dc0c, type: 3}
+      propertyPath: uiController
+      value: 
+      objectReference: {fileID: 75725396}
     - target: {fileID: 8579533169709540191, guid: d71567cd49c3fb8438176b799964dc0c, type: 3}
       propertyPath: m_Name
       value: Plane
