@@ -46,6 +46,16 @@ public class UiController : MonoBehaviour
         
     }
 
+    public void TryAgain()
+    {
+        SceneManager.LoadScene("LEVEL 01");
+    }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
     public void QuitGame()
     {
         Application.Quit();
