@@ -21,11 +21,18 @@ public class EnemyManager : MonoBehaviour
     public GameObject enemyExplosion;
 
     public GameObject coinPrefabs;
+    public EnemyHealthBar enemyHealthBar;
+
+    public float health = 10f;
+
+    float bar = 1.0f;
+    float damage = 0;
 
     private void Start()
     {
         muzzleFlash.SetActive(false);
         StartCoroutine(ShootEnemy());
+        damage = bar / health;
     }
 
     private void FixedUpdate()
@@ -43,10 +50,26 @@ public class EnemyManager : MonoBehaviour
     {
         if (collision.gameObject.tag == "PlayerBullet")
         {
-            Instantiate(coinPrefabs, transform.position, Quaternion.identity);
-            Destroy(gameObject);
-            GameObject explosion = Instantiate(enemyExplosion, transform.position, Quaternion.identity);
-            Destroy(explosion, 0.4f);
+            DamageHealthBar();
+            Destroy(collision.gameObject);
+            if (health <= 0)
+            {
+                Instantiate(coinPrefabs, transform.position, Quaternion.identity);
+                Destroy(gameObject);
+                GameObject explosion = Instantiate(enemyExplosion, transform.position, Quaternion.identity);
+                Destroy(explosion, 0.4f);
+            }
+            
+        }
+    }
+
+    private void DamageHealthBar()
+    {
+        if (health > 0)
+        {
+            health -= 1;
+            bar = bar - damage;
+            enemyHealthBar.SetBarScale(bar);
         }
     }
 
