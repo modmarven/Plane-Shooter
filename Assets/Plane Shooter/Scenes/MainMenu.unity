@@ -711,7 +711,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0.45
+  m_MatchWidthOrHeight: 0.35
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -1982,6 +1982,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loadingManager: {fileID: 1114531493}
   progressSlider: {fileID: 1316543559}
+  loadSpeed: 0.5
 --- !u!1001 &8842006411008493611
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1989,6 +1990,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 727770224}
     m_Modifications:
+    - target: {fileID: 8842006409467513025, guid: 63118d4ddb2acb54fa0f3abd666d0c62, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8842006409962663565, guid: 63118d4ddb2acb54fa0f3abd666d0c62, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2076,6 +2081,14 @@ PrefabInstance:
     - target: {fileID: 8842006409962663566, guid: 63118d4ddb2acb54fa0f3abd666d0c62, type: 3}
       propertyPath: m_Name
       value: LoadingUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842006409962663566, guid: 63118d4ddb2acb54fa0f3abd666d0c62, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842006411389847424, guid: 63118d4ddb2acb54fa0f3abd666d0c62, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63118d4ddb2acb54fa0f3abd666d0c62, type: 3}

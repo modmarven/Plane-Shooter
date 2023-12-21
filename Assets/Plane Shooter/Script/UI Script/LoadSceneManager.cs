@@ -10,6 +10,8 @@ public class LoadSceneManager : MonoBehaviour
     public GameObject loadingManager;
     public Slider progressSlider;
 
+    public float loadSpeed = 0.02f;
+
     public void LoadScene(int index)
     {
         StartCoroutine(LoadingProgress(index));
@@ -26,7 +28,7 @@ public class LoadSceneManager : MonoBehaviour
 
         while (!asyncOperation.isDone)
         {
-            progress = Mathf.MoveTowards(progress, asyncOperation.progress, Time.deltaTime);
+            progress = Mathf.MoveTowards(progress, asyncOperation.progress, Time.deltaTime * loadSpeed);
             progressSlider.value = progress;
 
             if (progress >= 0.9f)
