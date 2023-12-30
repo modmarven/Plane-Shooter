@@ -10,6 +10,12 @@ public class CharacterSelection : MonoBehaviour
     public List<Sprite> sprites = new List<Sprite>();
     private int selectSkin = 0;
     public GameObject playerSkin;
+    public ShootManager shootManager;
+
+    private void Start()
+    {
+        shootManager.enabled = false;
+    }
 
     public void NextCharacter()
     {
@@ -34,8 +40,9 @@ public class CharacterSelection : MonoBehaviour
     }
 
     public void PlayGame()
-    {
-        PrefabUtility.SaveAsPrefabAsset(playerSkin, "Assets/Plane.prefab");
-        SceneManager.LoadScene("LEVEL 01");
+    {    
+            shootManager.enabled = true;
+            PrefabUtility.SaveAsPrefabAsset(playerSkin, "Assets/Plane.prefab");
+            SceneManager.LoadScene("LEVEL 01");      
     }
 }
