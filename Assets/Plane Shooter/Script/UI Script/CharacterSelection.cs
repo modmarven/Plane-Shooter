@@ -19,6 +19,7 @@ public class CharacterSelection : MonoBehaviour
             selectSkin = 0;
         }
         render.sprite = sprites[selectSkin];
+        
     }
 
     public void BackCharacter()
@@ -29,5 +30,12 @@ public class CharacterSelection : MonoBehaviour
             selectSkin = sprites.Count - 1;
         }
         render.sprite = sprites[selectSkin];
+        
+    }
+
+    public void PlayGame()
+    {
+        PrefabUtility.SaveAsPrefabAsset(playerSkin, "Assets/Plane.prefab");
+        SceneManager.LoadScene("LEVEL 01");
     }
 }
