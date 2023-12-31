@@ -21,6 +21,6 @@ public class SelectionManager : MonoBehaviour
     private void LoadCharacter()
     {
         int characterIndex = PlayerPrefs.GetInt("CharacterIndex");
-        Instantiate(characterPrefabs[characterIndex]);
+        Instantiate(characterPrefabs[characterIndex], transform.position, Quaternion.identity);
     }
 }

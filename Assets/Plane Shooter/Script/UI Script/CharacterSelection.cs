@@ -9,9 +9,35 @@ public class CharacterSelection : MonoBehaviour
     private GameObject[] characterPrefab;
     private int characterIndex;
 
+    [SerializeField]
+    private List<ShootManager> shootManager;
+    [SerializeField]
+    private List<PlaneFanRotate> fanRotate;
+    public List<GameObject> muzzleFlash;
+
     void Start()
     {
-        
+        foreach (var script in shootManager)
+        {
+            if (script != null)
+            {
+                script.enabled = false;
+            }
+        }
+        foreach (var script in fanRotate)
+        {
+            if (script != null)
+            {
+                script.enabled = false;
+            }
+        }
+        foreach (var gameObject in muzzleFlash)
+        {
+            if (gameObject != null)
+            {
+                gameObject.SetActive(false);
+            }
+        }
     }
 
     
@@ -34,5 +60,29 @@ public class CharacterSelection : MonoBehaviour
     {
         SceneManager.LoadScene("LEVEL 01");
         PlayerPrefs.SetInt("CharacterIndex", characterIndex);
+
+        foreach (var script in shootManager)
+        {
+            if (script != null)
+            {
+                script.enabled = true;
+            }
+        }
+        
+        foreach (var script in fanRotate)
+        {
+            if ( script != null)
+            {
+                script.enabled = true;
+            }
+        }
+        
+        foreach (var gameObject in muzzleFlash)
+        {
+            if (gameObject != null)
+            {
+                gameObject.SetActive(true);
+            }
+        }
     }
 }
