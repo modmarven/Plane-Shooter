@@ -6,7 +6,7 @@ public class Dragger : MonoBehaviour
 {
     public bool IsDragging;
 
-    private new Collider2D collider2D;
+    private Collider2D collider2d;
     private PlayerDragnDrop dragController;
     public PlayerHealthBar healthBar;
     public CoinCount coinCount;
@@ -33,7 +33,7 @@ public class Dragger : MonoBehaviour
 
     void Start()
     {
-        collider2D = GetComponent<Collider2D>();
+        collider2d = GetComponent<Collider2D>();
         dragController = FindObjectOfType<PlayerDragnDrop>();
         damage = barFillAmount / health;
     }
@@ -74,7 +74,7 @@ public class Dragger : MonoBehaviour
 
         if (colliderDragger != null && dragController.lastDragged.gameObject == gameObject)
         {
-            ColliderDistance2D colliderDistance2D = collision.Distance(collider2D);
+            ColliderDistance2D colliderDistance2D = collision.Distance(collider2d);
             Vector3 different = new Vector3(colliderDistance2D.normal.x, colliderDistance2D.normal.y) * colliderDistance2D.distance;
             transform.position -= different;
         }

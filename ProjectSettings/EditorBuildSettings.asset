@@ -11,10 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Plane Shooter/Scenes/LEVEL 01.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: Assets/Plane Shooter/Scenes/Plane Selection.unity
+    guid: 651da2c738bc9b94f911bcd984a150ef
   - enabled: 1
     path: Assets/Plane Shooter/Scenes/Credits.unity
     guid: 093b0a48ac4b9b84d9bc611432a9e45a
-  - enabled: 1
-    path: Assets/Plane Shooter/Scenes/Plane Selection.unity
-    guid: 651da2c738bc9b94f911bcd984a150ef
   m_configObjects: {}
