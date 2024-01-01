@@ -332,10 +332,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gunPointCenter: {fileID: 2466348168529088325}
   enemyBulletPrefabs: {fileID: 4147803626979443587, guid: 2609069f6f486874aa46468da0786ab9, type: 3}
-  bulletSpawnTime: 0.5
+  bulletSpawnTime: 2
   muzzleFlash: {fileID: 1927776316335319361}
   muzzleFlashSpawnTime: 0.3
-  enemySpeed: -5
+  enemySpeed: -2.5
   enemyExplosion: {fileID: 7181456298090446481, guid: e60b1a51f3b92f446be98502d6904d2f, type: 3}
   coinPrefabs: {fileID: 6255696339569412640, guid: 8daa75a823286794eb6cdf8c3040b29d, type: 3}
   enemyHealthBar: {fileID: 938463500}

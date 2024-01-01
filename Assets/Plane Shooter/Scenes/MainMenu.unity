@@ -1327,33 +1327,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Plane
       objectReference: {fileID: 0}
-    - target: {fileID: 8804175422522503683, guid: a9ae695733712f1489d197e26035481b, type: 3}
-      propertyPath: m_SortingLayer
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8804175422522503683, guid: a9ae695733712f1489d197e26035481b, type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8804175422522503683, guid: a9ae695733712f1489d197e26035481b, type: 3}
-      propertyPath: m_SortingLayerID
-      value: -1314048237
-      objectReference: {fileID: 0}
     - target: {fileID: 8804175422522503684, guid: a9ae695733712f1489d197e26035481b, type: 3}
       propertyPath: m_RootOrder
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8804175422522503684, guid: a9ae695733712f1489d197e26035481b, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.09
-      objectReference: {fileID: 0}
-    - target: {fileID: 8804175422522503684, guid: a9ae695733712f1489d197e26035481b, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.09
-      objectReference: {fileID: 0}
-    - target: {fileID: 8804175422522503684, guid: a9ae695733712f1489d197e26035481b, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.99999976
       objectReference: {fileID: 0}
     - target: {fileID: 8804175422522503684, guid: a9ae695733712f1489d197e26035481b, type: 3}
       propertyPath: m_LocalPosition.x

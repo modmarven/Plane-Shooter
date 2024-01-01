@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Dragger : MonoBehaviour
+public class PlayerDragger : MonoBehaviour
 {
     public bool IsDragging;
 
     private Collider2D collider2d;
     private PlayerDragnDrop dragController;
+
+    
     public PlayerHealthBar healthBar;
     public CoinCount coinCount;
     public UiController uiController;
@@ -70,7 +72,7 @@ public class Dragger : MonoBehaviour
             coinCount.AddCoin();
         }
 
-        Dragger colliderDragger = collision.GetComponent<Dragger>();
+        PlayerDragger colliderDragger = collision.GetComponent<PlayerDragger>();
 
         if (colliderDragger != null && dragController.lastDragged.gameObject == gameObject)
         {

@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class PlayerDragnDrop : MonoBehaviour
 {
-    public Dragger lastDragged => draggerLast;
+    public PlayerDragger lastDragged => draggerLast;
 
     private bool isDragActive = false;
 
@@ -13,7 +13,7 @@ public class PlayerDragnDrop : MonoBehaviour
 
     private Vector3 worldPosition;
 
-    private Dragger draggerLast;
+    private PlayerDragger draggerLast;
 
     private void Update()
     {
@@ -44,7 +44,7 @@ public class PlayerDragnDrop : MonoBehaviour
             RaycastHit2D raycast2D = Physics2D.Raycast(worldPosition, Vector2.zero);
             if (raycast2D.collider != null)
             {
-                Dragger dragger = raycast2D.transform.gameObject.GetComponent<Dragger>();
+                PlayerDragger dragger = raycast2D.transform.gameObject.GetComponent<PlayerDragger>();
                 if (dragger != null)
                 {
                     draggerLast = dragger;

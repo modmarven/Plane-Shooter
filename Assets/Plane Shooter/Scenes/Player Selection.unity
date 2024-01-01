@@ -160,7 +160,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!224 &93829390
 RectTransform:
@@ -286,6 +286,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1558362907}
     m_Modifications:
+    - target: {fileID: 2481433248837855827, guid: f08bd1be1f84f6748aa4c95c0a029da6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6531280785159792731, guid: f08bd1be1f84f6748aa4c95c0a029da6, type: 3}
       propertyPath: m_Name
       value: Gray Plane
@@ -293,6 +297,10 @@ PrefabInstance:
     - target: {fileID: 6531280785159792731, guid: f08bd1be1f84f6748aa4c95c0a029da6, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6531280785159792731, guid: f08bd1be1f84f6748aa4c95c0a029da6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6531280785159792732, guid: f08bd1be1f84f6748aa4c95c0a029da6, type: 3}
       propertyPath: m_RootOrder
@@ -338,6 +346,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6531280785674867638, guid: f08bd1be1f84f6748aa4c95c0a029da6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6531280786278927309, guid: f08bd1be1f84f6748aa4c95c0a029da6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8199470100589950906, guid: f08bd1be1f84f6748aa4c95c0a029da6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f08bd1be1f84f6748aa4c95c0a029da6, type: 3}
 --- !u!1 &238729416
@@ -356,7 +376,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!224 &238729417
 RectTransform:
@@ -482,6 +502,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1558362907}
     m_Modifications:
+    - target: {fileID: 4381345691357129886, guid: 96ce0aff1edf4784e87d6153c0ac2438, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8684186367573670029, guid: 96ce0aff1edf4784e87d6153c0ac2438, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8684186368000744560, guid: 96ce0aff1edf4784e87d6153c0ac2438, type: 3}
       propertyPath: m_Name
       value: Plane 1
@@ -489,6 +517,10 @@ PrefabInstance:
     - target: {fileID: 8684186368000744560, guid: 96ce0aff1edf4784e87d6153c0ac2438, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8684186368000744560, guid: 96ce0aff1edf4784e87d6153c0ac2438, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8684186368000744567, guid: 96ce0aff1edf4784e87d6153c0ac2438, type: 3}
       propertyPath: m_RootOrder
@@ -534,6 +566,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8684186368437954312, guid: 96ce0aff1edf4784e87d6153c0ac2438, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8684186368921914059, guid: 96ce0aff1edf4784e87d6153c0ac2438, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96ce0aff1edf4784e87d6153c0ac2438, type: 3}
 --- !u!1 &365478511
@@ -553,7 +593,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!224 &365478512
 RectTransform:
@@ -696,7 +736,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!224 &601874433
 RectTransform:
@@ -773,7 +813,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!224 &725154688
 RectTransform:
@@ -920,7 +960,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!224 &753301158
 RectTransform:
@@ -1155,7 +1195,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!224 &970765353
 RectTransform:
@@ -1291,7 +1331,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!224 &1138766152
 RectTransform:
@@ -1424,7 +1464,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!224 &1186468580
 RectTransform:
@@ -1550,9 +1590,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1558362907}
     m_Modifications:
-    - target: {fileID: 6190948490799813180, guid: 3099f484f8b40eb46be55646aa9c6d64, type: 3}
-      propertyPath: m_Enabled
+    - target: {fileID: 1109049072250382743, guid: 3099f484f8b40eb46be55646aa9c6d64, type: 3}
+      propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1270979457760617130, guid: 3099f484f8b40eb46be55646aa9c6d64, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6190948489395759420, guid: 3099f484f8b40eb46be55646aa9c6d64, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6190948489875490047, guid: 3099f484f8b40eb46be55646aa9c6d64, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6190948490141562553, guid: 3099f484f8b40eb46be55646aa9c6d64, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6190948490799813187, guid: 3099f484f8b40eb46be55646aa9c6d64, type: 3}
       propertyPath: m_RootOrder
@@ -1603,8 +1659,8 @@ PrefabInstance:
       value: Plane
       objectReference: {fileID: 0}
     - target: {fileID: 6190948490799813188, guid: 3099f484f8b40eb46be55646aa9c6d64, type: 3}
-      propertyPath: m_IsActive
-      value: 1
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3099f484f8b40eb46be55646aa9c6d64, type: 3}
@@ -1789,7 +1845,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1558362907
 Transform:
@@ -1827,7 +1883,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!224 &1690988913
 RectTransform:
@@ -2060,7 +2116,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!224 &1854706306
 RectTransform:
@@ -2196,7 +2252,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1882207484
 MonoBehaviour:
@@ -2339,7 +2395,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!224 &2136785433
 RectTransform:
@@ -2471,6 +2527,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 516167441831967186, guid: 6f781c3f576a4fe4b9ec33b5f025db73, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 516167441831967196, guid: 6f781c3f576a4fe4b9ec33b5f025db73, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -2514,6 +2574,18 @@ PrefabInstance:
     - target: {fileID: 516167441831967196, guid: 6f781c3f576a4fe4b9ec33b5f025db73, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198870012076362973, guid: 6f781c3f576a4fe4b9ec33b5f025db73, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3543406457647714597, guid: 6f781c3f576a4fe4b9ec33b5f025db73, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7430773787324244280, guid: 6f781c3f576a4fe4b9ec33b5f025db73, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f781c3f576a4fe4b9ec33b5f025db73, type: 3}
