@@ -41,4 +41,9 @@ public class LoadSceneManager : MonoBehaviour
         }
     }
 
+    public void Credits()
+    {
+        SceneManager.LoadScene("Credits");
+    }
+
 }

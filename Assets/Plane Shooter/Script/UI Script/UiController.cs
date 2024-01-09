@@ -56,9 +56,9 @@ public class UiController : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
-    public void CharacterSelection()
+    public void Credits()
     {
-        SceneManager.LoadScene("Plane Selection");
+        SceneManager.LoadScene("Credits");
     }
 
     public void QuitGame()
